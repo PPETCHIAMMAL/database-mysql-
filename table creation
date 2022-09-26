@@ -1,0 +1,11 @@
+show databases;
+create database raji;
+show databases;
+use raji;
+create table lakshmi(name char(50),age int,phone_no int);
+describe lakshmi;
+insert into lakshmi values('moni',20,12345);
+insert into lakshmi values('deepa',21,98765);
+select*from lakshmi;
+alter table lakshmi add gender char(50);
+update lakshmi set name='deepa' where age=21;
