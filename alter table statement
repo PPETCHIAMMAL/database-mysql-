@@ -1,4 +1,18 @@
 --add new column in table
 alter table lakshmi add gender varchar(50);
 describe lakshmi;
-update lakshmi set gender='female' where 
+update lakshmi set gender='female' where age=20;
+select*from lakshmi;
+
+--drop a column in table
+alter table lakshmi drop column age;
+select*from lakshmi;
+
+--rename column in table
+alter table lakshmi change column name record varchar(50);
+select*from lakshmi;
+
+--rename table
+alter table lakshmi rename to raaji;
+show tables;
+
