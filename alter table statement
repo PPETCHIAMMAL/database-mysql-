@@ -1,2 +1,4 @@
 --add new column in table
-alter table lakshmi
+alter table lakshmi add gender varchar(50);
+describe lakshmi;
+update lakshmi set gender='female' where 
